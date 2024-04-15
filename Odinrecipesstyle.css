@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: linen;
+    font-family: sans-serif;
+}
+.recipes-box {
+    padding: 1em;
+    margin: 2em 2em;
+    border: 2px solid white;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.maintitle {
+    color: lightcoral;
+    font-family: "Lucinda handwriting", cursive, "brush script MT";
+    font-size: 3em;
+    text-align: center;
+    padding: .5em;
+}
+
+.sectiontitle {
+    color: lightcoral;
+    font-family: Papyrus, "sans-serif", Arial;
+    font-size: 1.5em;
+    margin: 1em 1em 0px;    
+}
+
+.description {
+    padding: 0px 2em;
+}
+
+.recipeslist {
+    color: deepskyblue;
+    font-family: Papyrus, "sans-serif", Arial;
+    padding: 0px 2.5em;
+}
+
+.ilustrastyle {
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+}
